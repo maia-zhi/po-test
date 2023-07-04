@@ -1,0 +1,68 @@
+.navbar {
+  box-shadow: 0px 4px 10px var(--bs-gray-200);
+}
+
+.navbar-toggler:hover, .navbar-toggler:focus {
+  box-shadow: 0px 4px 10px var(--bs-gray-200);
+  border: none;
+}
+
+.nav-item {
+  padding: 0.5rem 1rem;
+}
+.nav-item:hover {
+  background-color: #91AD70;
+  border-radius: 2rem;
+}
+.nav-item:hover .nav-link {
+  color: var(--bs-dark);
+}
+.nav-item .nav-link {
+  color: var(--bs-dark);
+  font-weight: 500;
+  padding: 0;
+}
+
+.timeSpan {
+  font-family: "Maven Pro", sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+h1 {
+  font-family: "Maven Pro", sans-serif;
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+h1 .multiText {
+  color: #91AD70;
+}
+
+.projectTitle li {
+  list-style: none;
+  margin-bottom: 0.25rem;
+  font-family: "Maven Pro", sans-serif;
+  font-weight: 400;
+}
+
+.ani-cuty {
+  padding-left: 4rem;
+}
+
+.card {
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 1px 1px 7px var(--bs-gray-500);
+  border: none;
+}
+.card:hover {
+  transform: translate(-0.25rem, -0.25rem);
+  box-shadow: 4px 4px 10px var(--bs-gray-300);
+  transition: 0.5s;
+}
+.card .card-body .card-title {
+  letter-spacing: 0.05rem;
+}
+.card .card-body .card-text {
+  font-size: 0.75rem;
+}/*# sourceMappingURL=all.css.map */
