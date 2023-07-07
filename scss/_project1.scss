@@ -1,0 +1,58 @@
+.iconEllipse {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--bs-gray-500);
+    color: var(--bs-gray-100);
+    @include center;
+}
+.iconEllipse-lg {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: var(--bs-gray-500);
+    color: var(--bs-gray-100);
+    @include center;
+}
+
+.image-container {
+    img {
+        display: inline-block;
+        max-width: 100%;
+      }
+}
+
+.mockUp-xl-abs {
+    position: absolute;
+    top: 0;
+    width: 30%;
+}
+.scrollNote {
+    display: none;
+}
+
+@media (max-width: 1200px) {
+    .scrollNote {
+        display: block;
+        color: $sub-color;
+    }
+    .image-container {
+        overflow-x: auto;
+        white-space: nowrap;
+        img {
+            display: inline-block;
+            max-width: 200%;
+            padding-top: 1rem;
+            box-shadow: inset 0px 5px 10px rgba($color: $sub-color, $alpha: 0.1);
+          }
+    }
+    .mockUp-xl-abs {
+        position: relative;
+        width: 100%;
+    }
+}
+
+
+  
+
+   

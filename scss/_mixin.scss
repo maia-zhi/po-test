@@ -1,5 +1,31 @@
 // color
 $main-color: #91AD70;
+$sub-color: #353535;
+
+.bg-light-2 {
+    background-color: #ffefef;
+}
 
 //typography
 $sub-text: 0.75rem;
+.text-gray {
+    color: #707070 !important;
+}
+h3,p,h6 {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0.75rem;
+}
+@media (max-width: 575px) {
+    h3 {
+      font-size: calc((1.3rem + .6vw) * 0.75);
+    }
+}
+p {
+    font-weight: 300;
+}
+
+@mixin center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

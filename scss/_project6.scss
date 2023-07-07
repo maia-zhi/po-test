@@ -1,0 +1,42 @@
+.ovh-X {
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+
+.Ani-section {
+    background-color: #191919;
+    .container {
+        z-index: 1;
+        position: relative;
+        width: 100%;
+        min-height: 150vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        #text{
+            position: absolute;
+            color: var(--bs-gray-200);
+            font-size: 10vh;
+            text-align: center;
+            letter-spacing: 0.5rem;
+            span {
+                font-size: 0.2em;
+                font-weight: 400;
+            }
+        }
+        }
+}
+
+.walkIntro {
+    color: #fff;
+    img {
+        border-radius: 1rem;
+        overflow: hidden;
+    }
+}
+
+#textIntroText {
+    line-height: 1.5;
+    letter-spacing: 0.2rem;
+}
+
